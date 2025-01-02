@@ -43,7 +43,7 @@ system_architecture.png         # Diagram of the system architecture
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/real-time-transportation-streaming.git
+git clone https://github.com/yogeshpunia/real-time-transportation-analytics-spark-kafka.git
 cd real-time-transportation-streaming
 ```
 
