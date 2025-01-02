@@ -36,6 +36,12 @@ requirements.txt                # Python dependencies for the project
 system_architecture.png         # Diagram of the system architecture
 ```
 
+## System Architecture
+
+The following diagram illustrates the system architecture of the project:
+
+![System Architecture](system_architecture.png)
+
 ## Setup and Run
 
 ### 1. Clone the Repository
