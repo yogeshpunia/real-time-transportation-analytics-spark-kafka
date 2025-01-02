@@ -12,8 +12,8 @@ def main():
         output_path = 's3a://spark-streaming-data-v1/data/'
         checkpoint_location = 's3a://spark-streaming-data-v1/checkpoints/'
     elif storage_type == 'local_storage':
-        output_path = 'storage/data/'
-        checkpoint_location = 'storage/checkpoints/'
+        output_path = '/opt/bitnami/spark/storage/data/'
+        checkpoint_location = '/opt/bitnami/spark/storage/checkpoints/'
     else:
         raise ValueError("Invalid storage type. Choose 'S3' or 'local_storage'.")
 
