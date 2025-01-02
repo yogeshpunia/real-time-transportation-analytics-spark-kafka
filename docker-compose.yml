@@ -75,6 +75,7 @@ services:
     image: bitnami/spark:3.5.0
     volumes:
       - ./jobs:/opt/bitnami/spark/jobs
+      - ./storage:/opt/bitnami/spark/storage
     command: bin/spark-class org.apache.spark.deploy.master.Master
     ports:
       - "9090:8080"
